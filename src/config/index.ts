@@ -34,7 +34,13 @@ const config: Config = {
         port: parseInt(process.env.REDIS_QUEUE_PORT!),
         db: parseInt(process.env.REDIS_QUEUE_DB!)
     },
-    discord_url: process.env.DISCORD_URL!
+    discord_url: process.env.DISCORD_URL!,
+    elastic: {
+        host: process.env.ELASTIC_HOST!,
+        prefix: process.env.ELASTIC_HOST_PREFIX!,
+        user: process.env.ELASTIC_USER!,
+        password: process.env.ELASTIC_PASSWORD!
+    }
 };
 
 export { config }
