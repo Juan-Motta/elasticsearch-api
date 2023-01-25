@@ -29,6 +29,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "@elastic/elasticsearch": "^8.6.0",
     "amqplib": "^0.10.3",
     "bull": "^4.10.2",
     "bull-arena": "^3.30.3",
